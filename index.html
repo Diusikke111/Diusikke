@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información Diusikke</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1.5rem;
+      animation: fadeInUp 2s ease-out;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background: #ffffff20;
+      border: 2px solid #fff;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #fff;
+      color: #1f1c2c;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Información Diusikke</h1>
+  <p>¡Bienvenido! Conecta conmigo en mis redes sociales:</p>
+  <div class="buttons">
+    <a href="#" class="btn">TikTok</a>
+    <a href="#" class="btn">Discord</a>
+    <a href="#" class="btn">Instagram</a>
+  </div>
+</body>
+</html>
